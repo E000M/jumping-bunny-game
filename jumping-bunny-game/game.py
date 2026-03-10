@@ -8,9 +8,9 @@ SCREEN_W, SCREEN_H = 1024, 576
 FPS = 60
 
 # Image paths
-BG_PATH = r"C:\Users\AG\Desktop\HOPA HOPA GAME\9259344.jpg"
-BUNNY_PATH = r"C:\Users\AG\Desktop\HOPA HOPA GAME\pixelated-bunny-cute-and-friendly-png.png"
-YOU_LOST_PATH = r"C:\Users\AG\Desktop\HOPA HOPA GAME\youlost_banner.png"
+BG_PATH = "images/9259344.jpg"
+BUNNY_PATH = "images/pixelated-bunny-cute-and-friendly-png.png"
+YOU_LOST_PATH = "images/youlost_banner.png"
 
 # Init
 pygame.init()
@@ -277,3 +277,4 @@ while running:
 
 pygame.quit()
 sys.exit()
+
